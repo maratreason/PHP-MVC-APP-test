@@ -2,9 +2,9 @@
 
 // echo $_SERVER['DOCUMENT_ROOT'];
 
-// define ("ROOT", "D:/server/OSPanel/domains/www/mvc-app");
+define ("ROOT", "d:/server/OSPanel/domains/mvc-app.ru");
 // define ("ROOT", "D:/server/OSPanel/domains/mvc-app");
-define ("ROOT", $_SERVER['DOCUMENT_ROOT']);
+// define ("ROOT", $_SERVER['DOCUMENT_ROOT']);
 define ("CONTROLLER_PATH", ROOT . "/controllers/");
 define ("MODEL_PATH", ROOT . "/models/");
 define ("VIEW_PATH", ROOT . "/views/");

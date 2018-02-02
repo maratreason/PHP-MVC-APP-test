@@ -26,8 +26,8 @@ class Routing {
 			/* Определяем контроллер */
 
 			if($route[1] != '') {
-				$controllerName = ucFirst($route[1]. "Controller");
-				$modelName = ucFirst($route[1]. "Model");
+				$controllerName = ucFirst($route[1] . "Controller");
+				$modelName = ucFirst($route[1] . "Model");
 			}
 
 			/* Будет подключен любой контроллер, либо по умолчанию, либо который определен */
