@@ -6,7 +6,7 @@
 
 class DB {
 	const USER = "root";
-	const PASS = "";
+	const PASS = "1111";
 	const HOST = "localhost";
 	const DB = "codetoge_cabinet";
 

@@ -1,4 +1,4 @@
-<?php print_r($pageData); ?>
+<!-- kamil - 1111 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +26,7 @@
 								<p><?php echo $pageData['error']; ?></p>
 								<?php endif; ?>
 							<input type="text" class="form-control" name="login" id="login" placeholder="Логин" required>
-							<input type="password" class="form-control" name="password" id="password" placeholder="Пароль" required>
+							<input type="password" class="form-control" name="password" id="password" placeholder="Пароль">
 							<button class="btn btn-lg btn-primary btn-block" type="submit">
 								Войти</button>
 							</form>

@@ -5,7 +5,7 @@ class IndexModel extends Model {
 	public function checkUser() {
 
 		$login = $_POST['login'];
-		$password = $_POST['password'];
+		$password = md5($_POST['password']);
 
 		$sql = "SELECT * FROM users WHERE login = :login AND password = :password";
 
@@ -17,8 +17,7 @@ class IndexModel extends Model {
 		$res = $stmt->fetch(PDO::FETCH_ASSOC);
 
 		if(!empty($res)) {
-			//
-			echo 'ok';
+			header("Location: /cabinet");
 		} else {
 			return false;
 		}
