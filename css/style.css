@@ -1,18 +1,5 @@
-html, body {
-    height: 100%;
-}
-
-.table-block {
-    display: table;
-    width: 100%;
-}
-
-.table-cell-block {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.form-signin {
+.form-signin
+{
     max-width: 330px;
     padding: 15px;
     margin: 0 auto;
