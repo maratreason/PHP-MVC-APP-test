@@ -1,16 +1,17 @@
 <?php 
 
 /**
-** Класс конфигурации базы данных
+* Класс конфигурации базы данных
 */
-
 class DB {
+	
 	const USER = "root";
 	const PASS = "1111";
 	const HOST = "localhost";
 	const DB = "codetoge_cabinet";
 
 	public static function connToDB() {
+
 		$user = self::USER;
 		$pass = self::PASS;
 		$host = self::HOST;
@@ -21,6 +22,3 @@ class DB {
 		return $conn;
 	}
 }
-
-
- ?>
